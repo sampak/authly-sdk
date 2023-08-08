@@ -1,0 +1,15 @@
+{
+  "name": "authy-sdk",
+  "version": "0.0.1",
+  "description": "SDK for authy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sdk",
+    "authy"
+  ],
+  "author": "Lukasz Wojdat",
+  "license": "ISC"
+}
