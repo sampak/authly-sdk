@@ -4,6 +4,7 @@
   "description": "SDK for authy",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +12,16 @@
     "authy"
   ],
   "author": "Lukasz Wojdat",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "openpgp": "^5.9.0"
+  },
+  "devDependencies": {
+    "@openpgp/web-stream-tools": "^0.0.14",
+    "@types/node": "^20.4.8",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
+  }
 }
