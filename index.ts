@@ -52,8 +52,6 @@ class Authly {
         password: encryptedPassword
       }) 
 
-      console.log(response);
-
       return response.data;
     } catch(e) {
       throw new Error(e?.response?.data?.message ?? 'UNKNOW_ERROR');
@@ -115,4 +113,4 @@ class Authly {
   }
 }
   
-export default Authy
+export default Authly
