@@ -4,7 +4,7 @@ const axios_1 = require("axios");
 const openpgp = require("openpgp");
 const fs = require("fs");
 const utils_1 = require("./utils");
-class Authy {
+class Authly {
     constructor() {
         this.requestInterceptor = async (config) => {
             if (!config.headers) {

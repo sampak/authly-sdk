@@ -5,7 +5,7 @@ import { IRequestCreateUser } from './dto/requests/IRequestCreateUser';
 import { encryptMessage } from './utils';
 import { IRequestLoginUser } from './dto/requests/IRequestLoginUser';
 
-class Authy {
+class Authly {
   private token: string;
   private publicKey: string;
   private axiosInstance: AxiosInstance
