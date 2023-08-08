@@ -1,5 +1,5 @@
 {
-  "name": "authy-sdk",
+  "name": "authly-sdk",
   "version": "0.0.11",
   "description": "SDK for authy",
   "main": "dist/index.js",
